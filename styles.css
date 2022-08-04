@@ -1,0 +1,56 @@
+body {
+  background-image: url();
+}
+/* Универсальный css */
+/* Универсальный */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* по тегу */
+h1 {
+  color: red;
+}
+/* по классу */
+.makers-3 {
+  /* background-color: aqua;
+    background-image:url() ; */
+  background: red;
+}
+/* по id */
+#google {
+  text-decoration: none;
+  border: 2px solid yellow;
+  margin: 20px;
+  padding: 40px;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  /* margin: 10px; */
+  margin: 10px 20px 30px 40px;
+  padding: 30px;
+  /* display: inline-block; */
+  display: block;
+}
+.block-size {
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+.one :hover {
+  color: aqua;
+}
+p {
+  letter-spacing: 1px;
+
+  font-weight: 100;
+}
+#fonts1 {
+  font-family: "Bebas Neue", cursive;
+}
+#fonts2 {
+  font-family: "Signika Negative", sans-serif;
+}
